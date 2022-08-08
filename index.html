@@ -21,13 +21,13 @@
                 <li class="nav-item"><a href="main" class="nav-link-active">Главная</a></li>
                 <li class="nav-item"><a href="portfolio" class="nav-link">Проекты</a></li>
                 <li class="nav-item"><a href="developer" class="nav-link">Обо мне</a></li>
-                <li class="nav-item"><a href="feedback class=" nav-link">Связаться</a></li>
+                <li class="nav-item"><a href="feedback " class="nav-link">Связаться</a></li>
             </ul>
         </nav>
     </div>
     <!-- ./navbar-->
     <header class="header container " id="main">
-        <img src="img/avatar (2).png" alt="Людмила" class="header-foto">
+        <img src="img/ava.png" alt="Людмила" class="header-foto">
         <!-- /.header-photo -->
         <div class="header-text">
             <strong class="header-strong">Привет 👋</strong>
@@ -172,17 +172,18 @@
             <form action="#" class="form">
                 <div class="input-group">
                     <label for="userName" class="input-lebel">Имя</label>
-                    <input id="userName" type="text" class="input">
+                    <input id="userName" name="client_Name" type="text" class="input">
                 </div>
                 <!-- /.input-group -->
                 <div class="input-group">
                     <label for="userEmail" class="input-lebel">Email</label>
-                    <input id="userEmail" type="text" class="input">
+                    <input id="userEmail" name="client_Email" type="text" class="input">
                 </div>
                 <!-- /.input-group -->
                 <div class="input-group">
                     <label for="userMessage" class="input-lebel">Сообщение</label>
-                    <textarea id="userMessage" cols="30" rows="30" class="input textarea"></textarea>
+                    <textarea id="userMessage" name="client_Message" cols="30" rows="30"
+                        class="input textarea"></textarea>
                 </div>
                 <!-- /.input-group -->
                 <div class="button-grop">
@@ -195,6 +196,7 @@
         </div>
     </section>
     <!-- /.feedback -->
+    <script src="js/main.js"></script>
 </body>
 
 </html>
